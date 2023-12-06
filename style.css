@@ -1,6 +1,41 @@
-#Lupa {
-    color: grey;
+header ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
 }
+
+header ul li {
+    margin: 10px;
+}
+
+#BarraBusqueda {
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+}
+
+#Botones {
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+}
+
+#derecha {
+    list-style-type: none;
+    display: flex;
+    justify-content: left;
+}
+
+#izquierda {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer ul li {
+    margin: 10px;
+}
+
 
 .Icono {
     width: 30px;
